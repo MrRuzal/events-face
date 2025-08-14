@@ -1,8 +1,9 @@
 import time
-import requests
-
 from datetime import datetime, timedelta
+
+import requests
 from django.core.management.base import BaseCommand
+
 from events.models import Event, Venue
 from sync.models import SyncResult
 

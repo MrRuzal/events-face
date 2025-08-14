@@ -1,5 +1,6 @@
-from django.urls import path, include
 from django.contrib import admin
+from django.urls import include, path
+
 from events.views import EventListView
 
 urlpatterns = [

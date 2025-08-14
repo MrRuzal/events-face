@@ -1,5 +1,6 @@
-import uuid
 import enum
+import uuid
+
 from django.db import models
 
 
