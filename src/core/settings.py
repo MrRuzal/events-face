@@ -134,3 +134,10 @@ CELERY_BEAT_SCHEDULE = {
         "schedule": 86400.0,
     },
 }
+
+EVENTS_FACE = {
+    "BASE_URL": "https://events.k3scluster.tech/api/events/",
+    "MAX_RETRIES": 3,
+    "BATCH_SIZE": 500,
+    "TIMEOUT": 10,
+}
